@@ -1,4 +1,4 @@
-import { IconEntry, IconCategory, FigmaCategory } from "./types";
+import { FigmaCategory, IconCategory, IconEntry } from "./types";
 
 export type PhosphorIcon = (typeof icons)[number];
 
@@ -15410,6 +15410,22 @@ export const icons = (<const>[
     codepoint: 59088,
     published_in: 1.3,
     updated_in: 1.3,
+  },
+  {
+    name: "pool-table",
+    pascal_name: "PoolTable",
+    categories: [IconCategory.GAMES],
+    figma_category: FigmaCategory.GAMES,
+    tags: [
+      "*new*",
+      "games",
+      "activities",
+      "gdc",
+      "custom",
+    ],
+    codepoint: 57344,
+    published_in: 2.1,
+    updated_in: 2.1,
   },
   {
     name: "popcorn",
